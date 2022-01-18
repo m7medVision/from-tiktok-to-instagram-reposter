@@ -1,0 +1,3 @@
+instagrapi==1.16.13
+requests==2.26.0
+moviepy==1.0.3
