@@ -31,7 +31,7 @@ class TIbot:
         
     def get_last_video_id_form_tiktok(self, tiktokusername: str) -> str:
         
-        response = requests.get("https://server1.majhcc.xyz/api/tk/getlastvideoid?username={}".format(tiktokusername))
+        response = requests.get("https://api-v1.majhcc.com/api/tk/getlastvideoid?username={}".format(tiktokusername))
         
         return response.json()["download_url"], response.json()["video_id"]
     
